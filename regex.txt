@@ -1,0 +1,11 @@
+((\d|\.|\s))*(?=(kw))  -- kilowat or megawatt or watts | spelled out 
+#((\d|\.|\s))*(?=(module))
+#((\d|\.|\s))*(?=(inverter))
+#((\d|\.|\s))*(?=(amp))
+
+Electrical permit to install a roof mounted photovoltaic systsem for SDU
+E-submittal :  Roof Mount  Solar PV  11 Module(s),  11 micro  Inverter(s) 2.86 kW system , no panel upgrade
+ Installation of Roof Mounted PV System SDU
+For roof mounted, 14.84kw photovoltaic system for existing commercial building. Ballasted system, no proposed structural modifications.
+
+Installation of Roof Mounted PV System SDU 8.97 KW, 26 Modules, 26 Inverters, 60 amp Renewable Meter Adapter
