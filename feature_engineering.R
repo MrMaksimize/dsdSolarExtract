@@ -7,7 +7,7 @@ library(plotly)
 kw_regex = '((\\d|\\.|\\s))*(?=(kw))'
 
 #dsd <- read.csv("http://datasd-prod.s3.amazonaws.com/permits_issued_ytd_datasd.csv", stringsAsFactors = FALSE)
-dsd <- read.csv("http://datasd-prod.s3.amazonaws.com/dsd/permits_issued_2015_datasd.csv", stringsAsFactors = FALSE)
+dsd <- read.csv("http://seshat.datasd.org/dsd/permits_issued_2015_datasd.csv", stringsAsFactors = FALSE)
 dsd <- dplyr::filter(dsd, approval_type_id == 293) %>%
     select(approval_id, 
            issue_date, 
@@ -42,4 +42,4 @@ plotly_POST(permits_by_mon_plot, filename = "solar_permits_issued_16", sharing =
 
 
 
-write.csv(dsd, "~/Dropbox/MasterSync/DATA/PROD/DSD/issued_solar_2015.csv", row.names = FALSE)
+write.csv(dsd, "./issued_solar_2015.csv", row.names = FALSE)
